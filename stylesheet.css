@@ -1,0 +1,501 @@
+body {
+  color: #5B5F62;
+  background: #FAF8ED;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2D3134;
+}
+
+.navbar {
+  padding: 15px !important;
+  background: transparent;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+.navbar #bookNowIcon {
+  width: 16px;
+  height: 15px;
+}
+.navbar .nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  padding-left: 0.9rem !important;
+  padding-right: 0.9rem !important;
+  color: #2E476B;
+}
+.navbar .navbar-brand {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #2D3134;
+}
+.navbar .btn-outline-orange {
+  border: 1.4px solid #F66F4D;
+  color: #F66F4D;
+  width: 170px;
+  height: 54px;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Poppins";
+}
+
+.hero {
+  padding-top: 75px;
+}
+.hero .display-3 {
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-size: 84px;
+  line-height: 86px;
+}
+.hero p {
+  font-family: "Inter", sans-serif;
+}
+.hero .booking {
+  font-family: "Inter", sans-serif;
+  background-color: white;
+  padding: 12px;
+  margin-top: 2.6rem;
+}
+.hero .booking h6 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 17px;
+}
+.hero .booking .search {
+  position: relative;
+}
+.hero .booking .search .searchIcon {
+  position: absolute;
+}
+.hero .booking p {
+  font-weight: 400;
+  font-size: 12px;
+}
+.hero .heroRightImg {
+  position: relative;
+  left: 8%;
+}
+.hero .heroRightImg .smallRightimg {
+  position: absolute;
+  bottom: 1%;
+  left: -10%;
+}
+.hero .heroRightImg .smallRightimg .avartar {
+  position: absolute;
+  bottom: 6%;
+  left: 14%;
+  bottom: 1%;
+}
+
+.category {
+  padding-top: 75px;
+  font-family: "Inter", sans-serif;
+}
+.category p {
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+.category h3 {
+  font-size: 26px;
+  font-weight: 500;
+}
+.category .content {
+  position: relative;
+}
+.category .content .content-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+  border-radius: 100px;
+}
+.category .content:hover .content-overlay {
+  opacity: 1;
+}
+.category .content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.category .content:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+.category .content-details h3 {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  font-size: 23px;
+}
+.category .content-details p {
+  color: #fff;
+  font-size: 0.8em;
+}
+.category .fadeIn-bottom {
+  top: 80%;
+}
+
+.experience {
+  padding-top: 75px;
+  font-family: "Inter", sans-serif;
+}
+.experience .experienceLeftImg {
+  position: relative;
+  text-align: center;
+}
+.experience .experienceLeftImg .experienceSmalleft {
+  position: absolute;
+  bottom: 15%;
+  left: -9%;
+}
+.experience .experienceLeftImg .experienceSmalleft img {
+  height: 218px;
+  width: 140px;
+}
+.experience .experienceLeftImg .ExperiCard02 {
+  position: absolute;
+  top: 86%;
+  right: 9%;
+  width: 171px;
+  height: 92px;
+  background-color: white;
+  border-radius: 15px;
+}
+.experience .experienceLeftImg .ExperiCard02 .Orion_cellular-signal {
+  position: absolute;
+  left: 13%;
+  top: 25%;
+}
+.experience .experienceLeftImg .ExperiCard02 .nocusotmers {
+  position: absolute;
+  left: 36%;
+  top: 24%;
+}
+.experience .first-counter {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+.experience .second-counter {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+.experience .third-counter {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.destination {
+  padding-top: 75px;
+  font-family: "Inter", sans-serif;
+}
+.destination .heading {
+  width: 400px;
+  margin-bottom: 32px;
+}
+.destination .card {
+  background: transparent;
+  border: 3px solid white;
+  border-radius: 15px;
+  padding: 12px !important;
+}
+.destination .card .card-body {
+  padding: 0px;
+}
+.destination .card .card-text {
+  margin-top: 24px;
+  padding: 10px;
+}
+.destination .card .card-footer {
+  background: none;
+  border-top: 0px;
+  padding: 10px;
+}
+.destination .card .card-footer .btn {
+  font-size: 14px;
+  border: 1px solid #2D3134;
+}
+.destination .owl-carousel .owl-nav button.owl-next,
+.destination .owl-carousel .owl-nav button.owl-prev,
+.destination .owl-carousel button.owl-dot {
+  padding: 10px 17px !important;
+  border: 1px solid black;
+  border-radius: 100px !important;
+  margin-right: 10px;
+}
+.destination .owl-carousel .owl-nav {
+  position: absolute;
+  bottom: 113%;
+  right: 0%;
+}
+.destination .owl-carousel .owl-nav button.owl-next:hover,
+.destination .owl-carousel .owl-nav button.owl-prev:hover,
+.destination .owl-carousel button.owl-dot:hover {
+  background-color: #2D3134;
+  color: white;
+}
+
+.top-destination {
+  padding-top: 75px;
+  font-family: "Inter", sans-serif;
+}
+.top-destination .heading h1 {
+  margin-bottom: 16px;
+}
+.top-destination .heading p {
+  margin-bottom: 28px;
+}
+.top-destination .nav-link.active,
+.top-destination .show > .nav-link {
+  background-color: #2D3134;
+  color: white !important;
+}
+.top-destination .nav-pills .nav-link {
+  border: 1px solid #2D3134;
+  color: #2D3134;
+}
+.top-destination .tab-content {
+  margin-top: 51px;
+}
+
+.about-us {
+  padding-top: 75px;
+  font-family: "Inter", sans-serif;
+}
+.about-us .border-orange {
+  width: 67px;
+  height: 8px;
+  background: linear-gradient(159.99deg, #FFD482 13.35%, #FFBE82 118.92%);
+  box-shadow: 0px 2px 6px rgba(229, 137, 24, 0.15);
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+.about-us .card {
+  border-radius: 15px;
+}
+.about-us .card .card-body {
+  padding: 32px;
+}
+.about-us .card .card-body .card-text p {
+  line-height: 30px;
+  font-size: 18px;
+  margin-bottom: 27px;
+}
+.about-us .card .card-body .card-text .rating {
+  margin-bottom: 17px;
+}
+.about-us .card .card-body .card-text h4 {
+  margin-bottom: 0px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.about-us .card .card-body .card-text span {
+  font-size: 12px;
+}
+.about-us .owl-carousel .owl-nav button.owl-next,
+.about-us .owl-carousel .owl-nav button.owl-prev,
+.about-us .owl-carousel button.owl-dot {
+  padding: 6px 13px !important;
+  border: 1px solid black;
+  border-radius: 100px !important;
+  margin-right: 10px;
+}
+.about-us .owl-carousel .owl-nav {
+  position: absolute;
+  bottom: 28%;
+  right: 4%;
+}
+.about-us .owl-carousel .owl-nav button.owl-next:hover,
+.about-us .owl-carousel .owl-nav button.owl-prev:hover,
+.about-us .owl-carousel button.owl-dot:hover {
+  background-color: #2D3134;
+  color: white;
+}
+
+.newsletter {
+  padding-top: 75px;
+  font-family: "Inter", sans-serif;
+}
+.newsletter .container {
+  background: #FFD482;
+  border-radius: 30px;
+  padding: 75px;
+  text-align: center;
+  background-image: url("./src/Intersect.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.newsletter .container p {
+  max-width: 415px;
+}
+.newsletter form {
+  max-width: 450px;
+  position: relative;
+  margin-top: 40px;
+}
+.newsletter form input {
+  border-radius: 15px;
+  height: 60px;
+}
+.newsletter form .input-btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 5%;
+  bottom: 16%;
+  background-color: #F66F4D;
+  box-shadow: 0px 5px 14px rgba(247, 103, 67, 0.25);
+  border-radius: 12px;
+  cursor: pointer;
+}
+.newsletter form .input-btn img {
+  position: absolute;
+  right: 3%;
+  top: 5%;
+}
+
+.footer {
+  padding-top: 75px;
+  font-family: "Inter", sans-serif;
+}
+.footer .twitter {
+  padding: 3px 8px;
+  border: 1px solid black;
+  border-radius: 100px;
+}
+.footer .fb {
+  padding: 3px 12px;
+  border: 1px solid black;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+.footer .insta {
+  padding: 3px 9px;
+  border: 1px solid black;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+.footer .fb:hover, .footer .insta:hover, .footer .twitter:hover {
+  background-color: #343536;
+}
+.footer ul li a {
+  color: #5B5F62;
+  text-decoration: none;
+}
+.footer ul li a:hover {
+  color: #343536;
+}
+
+@media (min-width: 1200px) {
+  .content {
+    position: relative;
+  }
+  .content .content-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+    border-radius: 100px;
+  }
+  .content:hover .content-overlay {
+    opacity: 1;
+  }
+  .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .content:hover .content-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+  .content-details h3 {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+    font-size: 23px;
+  }
+  .content-details p {
+    color: #fff;
+    font-size: 0.8em;
+  }
+  .fadeIn-bottom {
+    top: 80%;
+  }
+}
+@media (max-width: 991.9px) {
+  .experience .experienceLeftImg .experienceSmalleft {
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+  }
+}
+@media (max-width: 575.9px) {
+  .experience .experienceLeftImg .experienceSmalleft {
+    position: absolute;
+    bottom: 15%;
+    left: 0%;
+  }
+  .experience .our-experience {
+    margin-top: 35px;
+  }
+}/*# sourceMappingURL=stylesheet.css.map */

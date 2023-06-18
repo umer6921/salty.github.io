@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frienify</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+
+    <!-- owl-carousel -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4\dist\assets\owl.carousel.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4\dist\assets\owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4\dist\assets\owl.theme.default.min.css">
+
+    <script src="OwlCarousel2-2.3.4\dist\owl.carousel.min.js"></script>
+
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <link href="stylesheet.css" rel="stylesheet">
+    <!-- counter -->
+
+    <script src="counter.js"></script>
+
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 500
+            });
+        });
+    </script>
+
+
+
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./src/logo.png">Salty</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-5 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Distinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Tour</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">blog</a>
+                    </li>
+                </ul>
+
+                <div class="d-flex ms-auto">
+
+                    <button class="btn btn-outline-orange rounded-pill">Book Now <img src="./src/bookNowIcon.png"
+                            id="bookNowIcon" class="ms-1"></button>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 ">
+                    <h1 class="display-3">
+                        Discover the Best Lovely Places
+                    </h1>
+                    <p class="lead" style="margin-top: 1.6rem; margin-bottom: 1.6rem;">Plan and book your perfect trip
+                        with expert advice, travel tips, destination information and inspiration from us.
+
+                    </p>
+
+                    <div class="booking d-flex justify-content-around rounded-pill align-items-center">
+                        <div class="where">
+                            <h6 class="mb-0">Where</h6>
+                            <p class="d-inline ">Center Point, Lo...</p>
+                            <img src="./src/desti.png" class="bookingIcons ms-4">
+                        </div>
+                        <div class="vr"></div>
+                        <div class="date">
+                            <h6 class="mb-0">Date</h6>
+                            <p class="d-inline ">09th March,2021</p>
+                            <img src="./src/calenderIcon.png" class="bookingIcons ms-4">
+                        </div>
+                        <div class="search">
+                            <img src="./src/searchIconBox.png" class="img-fluid">
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 heroRightImg">
+                    <img src="./src/heroRightImg.png" class="img-fluid">
+                    <div class="smallRightimg">
+                        <img src="./src/smallRightimg.png">
+                        <div class="avartar">
+                            <img src="./src/avartar.png">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="category">
+        <div class="container">
+            <h1 style="font-size: 56px; font-weight: 600">
+                Categories
+            </h1>
+            <p style=" width: 370px; line-height: 26px;">
+                Here are lots of interesting destinations to visit, but don’t be confused—they’re already grouped by
+                category.
+            </p>
+            <div class="owl-carousel carousel-1">
+
+
+                <div class="item">
+                    <div class="content">
+                        <a href="#" target="_blank">
+                            <div class="content-overlay"></div>
+                            <img class="content-image" src="./src/beach.png">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Beach</h3>
+                                <p class="content-text">This is a short description</p>
+                            </div>
+                        </a>
+                    </div>
+                    <h3 class="text-center mt-3">Beach</h3>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <a href="#" target="_blank">
+                            <div class="content-overlay"></div>
+                            <img class="content-image" src="./src/desert.png">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Desert</h3>
+                                <p class="content-text">This is a short description</p>
+                            </div>
+                        </a>
+                    </div>
+                    <h3 class="text-center mt-3">Desert</h3>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <a href="#" target="_blank">
+                            <div class="content-overlay"></div>
+                            <img class="content-image" src="./src/mountain.png">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Mountain</h3>
+                                <p class="content-text">This is a short description</p>
+                            </div>
+                        </a>
+                    </div>
+                    <h3 class="text-center mt-3">Mountain</h3>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <a href="#" target="_blank">
+                            <div class="content-overlay"></div>
+                            <img class="content-image" src="./src/Temple.png">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Temple</h3>
+                                <p class="content-text">This is a short description</p>
+                            </div>
+                        </a>
+                    </div>
+                    <h3 class="text-center mt-3">Temple</h3>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <a href="#" target="_blank">
+                            <div class="content-overlay"></div>
+                            <img class="content-image" src="./src/Tower.png">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Tower</h3>
+                                <p class="content-text">This is a short description</p>
+                            </div>
+                        </a>
+                    </div>
+                    <h3 class="text-center mt-3">Tower</h3>
+                </div>
+                <div class="item">
+                    <div class="content">
+                        <a href="#" target="_blank">
+                            <div class="content-overlay"></div>
+                            <img class="content-image" src="./src/Pyramid.png">
+                            <div class="content-details fadeIn-bottom">
+                                <h3 class="content-title">Pyramid</h3>
+                                <p class="content-text">This is a short description</p>
+                            </div>
+                        </a>
+                    </div>
+                    <h3 class="text-center mt-3">Pyramid</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        $('.carousel-1').owlCarousel({
+            loop: true,
+            margin: 15,
+            items: 6,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 3,
+                    nav: true
+                },
+                600: {
+                    items: 3,
+                    nav: false
+                },
+                1000: {
+                    items: 6,
+                    nav: true,
+                    loop: false
+                }
+            }
+        })  
+    </script>
+    <section class="experience">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                    <div class="experienceLeftImg">
+                        <img src="./src/experienceLeftImg.svg" class="img-fluid">
+
+                        <div class="experienceSmalleft">
+                            <img src="./src/experienceSmalleft.png" class="img-fluid">
+                            <!-- <div class="destiIcon">
+                                <img src="./src/destiIcon.png">
+                                <p>destinations</p>
+                            </div> -->
+
+                        </div>
+                        <div class="ExperiCard02">
+                            <!-- <img src="./src/ExperiCard02.png"> -->
+                            <div class="Orion_cellular-signal">
+                                <img src="./src/Orion_cellular-signal 1.png" class="img-fluid">
+                            </div>
+                            <div class=" nocusotmers">
+                                <img src="./src/5000+.png" class="img-fluid">
+                                <p class="mt-2">Customers</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center">
+                    <h5 class="our-experience"
+                        style="font-weight:600; color:#F66F4D; letter-spacing: 0.2em; margin-bottom: 20px;">Our
+                        Experience</h5>
+                    <h1 class="display-4" style="font-weight: 600; line-height: 66px; margin-bottom: 20px;">Our Stories
+                        Have Adventures</h1>
+                    <p style="font-size: 16px ; line-height: 26px; text-align: left;">
+                        We are experienced in bringing adventures to stay their journey,
+                        with all outdoor destinations in the world as our specialties.
+                        Start your adventure now! Nature has already called you!
+                    </p>
+
+                    <div class="row g-3">
+                        <div class="col-sm-12-col-md-3 col-lg-4">
+                            <div class="first-counter">
+                                <h1 class="counter display-5 d-inline " style="color:#F66F4D; font-weight: 600;">12</h1>
+                                <span class="display-5" style="color:#F66F4D; font-weight: 600;">K+</span>
+                                <p style="font-size: 21px; line-height: 29px; color: #939597;">Succes Journey</p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12-col-md-3 col-lg-4">
+                            <div class="second-counter">
+                                <h1 class="counter display-5 d-inline " style="color:#F66F4D; font-weight: 600;">16</h1>
+                                <span class="display-5" style="color:#F66F4D; font-weight: 600;">+</span>
+                                <p style="font-size: 21px; line-height: 29px; color: #939597;">Awards Winning</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12-col-md-3 col-lg-4">
+                            <div class="third-counter">
+                                <h1 class="counter display-5 d-inline " style="color:#F66F4D; font-weight: 600;">20</h1>
+                                <span class="display-5" style="color:#F66F4D; font-weight: 600;">+</span>
+                                <p style="font-size: 21px; line-height: 29px; color: #939597;">Years Of Experience</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="destination">
+        <div class="container">
+            <div class="heading">
+                <h1 class="display-4" style="font-weight:600 ; line-height: 66px; text-transform: capitalize;">Find
+                    Popular Destination</h1>
+            </div>
+
+            <div class="owl-carousel carousel-2">
+                <div class="item">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <img src="./src/destination1.png" class="img-fluid">
+                            </div>
+                            <div class="card-text">
+                                <h4 style="font-weight: 600; ">Mountain Hiking Tour</h4>
+                                <p>Mountain Hiking Tour</p>
+
+                            </div>
+                            <div class="card-footer d-flex justify-content-between">
+                                <div class="price">
+                                    <h4 style="font-weight: 600; ">$86 <span
+                                            style="font-weight: 400; font-size: 16px;">/Person</span></h4>
+                                </div>
+                                <div class="bookbtn">
+                                    <button class="btn rounded-pill text-dark ">Book Now</button>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <img src="./src/desti2.png" class="img-fluid">
+                            </div>
+                            <div class="card-text">
+                                <h4 style="font-weight: 600; ">Machu Picchu, Peru</h4>
+                                <p>Machu Picchu, Peru</p>
+
+                            </div>
+                            <div class="card-footer d-flex justify-content-between">
+                                <div class="price">
+                                    <h4 style="font-weight: 600; ">$99 <span
+                                            style="font-weight: 400; font-size: 16px;">/Person</span></h4>
+                                </div>
+                                <div class="bookbtn">
+                                    <button class="btn rounded-pill text-dark ">Book Now</button>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <img src="./src/desti3.png" class="img-fluid">
+                            </div>
+                            <div class="card-text">
+                                <h4 style="font-weight: 600; ">The Grand Canyon</h4>
+                                <p>Mountain Hiking Tour</p>
+
+                            </div>
+                            <div class="card-footer d-flex justify-content-between">
+                                <div class="price">
+                                    <h4 style="font-weight: 600; ">$70 <span
+                                            style="font-weight: 400; font-size: 16px;">/Person</span></h4>
+                                </div>
+                                <div class="bookbtn">
+                                    <button class="btn rounded-pill text-dark ">Book Now</button>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <img src="./src/destination1.png" class="img-fluid">
+                            </div>
+                            <div class="card-text">
+                                <h4 style="font-weight: 600; ">Mountain Hiking Tour</h4>
+                                <p>Mountain Hiking Tour</p>
+
+                            </div>
+                            <div class="card-footer d-flex justify-content-between">
+                                <div class="price">
+                                    <h4 style="font-weight: 600; ">$70 <span
+                                            style="font-weight: 400; font-size: 16px;">/Person</span></h4>
+                                </div>
+                                <div class="bookbtn">
+                                    <button class="btn rounded-pill text-dark ">Book Now</button>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <img src="./src/desti2.png" class="img-fluid">
+                            </div>
+                            <div class="card-text">
+                                <h4 style="font-weight: 600; ">Machu Picchu, Peru</h4>
+                                <p>Machu Picchu, Peru</p>
+
+                            </div>
+                            <div class="card-footer d-flex justify-content-between">
+                                <div class="price">
+                                    <h4 style="font-weight: 600; ">$99 <span
+                                            style="font-weight: 400; font-size: 16px;">/Person</span></h4>
+                                </div>
+                                <div class="bookbtn">
+                                    <button class="btn rounded-pill text-dark ">Book Now</button>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <img src="./src/desti3.png" class="img-fluid">
+                            </div>
+                            <div class="card-text">
+                                <h4 style="font-weight: 600; ">The Grand Canyon</h4>
+                                <p>Mountain Hiking Tour</p>
+
+                            </div>
+                            <div class="card-footer d-flex justify-content-between">
+                                <div class="price">
+                                    <h4 style="font-weight: 600; ">$70 <span
+                                            style="font-weight: 400; font-size: 16px;">/Person</span></h4>
+                                </div>
+                                <div class="bookbtn">
+                                    <button class="btn rounded-pill text-dark ">Book Now</button>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+   
+
+    <script>
+        $('.carousel-2').owlCarousel({
+            loop: true,
+            autoplay: true,
+            margin: 25,
+            items: 3,
+            dots: false,
+            navText: ["<", ">"],
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false,
+                },
+                678: {
+                    items: 2,
+                    nav: true
+                },
+                1000: {
+                    items: 3,
+                    nav: true,
+                    loop: false
+                }
+            }
+        })  
+    </script>
+
+<section class="top-destination">
+    <div class="container">
+        <div class="heading text-center">
+            <h1 class="display-4">
+                Top Destinations
+            </h1>
+
+            <p>Sost Brilliant reasons Entrada should be your one-stop-shop!</p>
+
+            <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
+                <li class="nav-item me-3" role="presentation">
+                    <button class="nav-link active rounded-pill px-4 py-1" id="pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                        aria-selected="true">Home</button>
+                </li>
+                <li class="nav-item me-3" role="presentation">
+                    <button class="nav-link rounded-pill px-4 py-1" id="pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                        aria-selected="false">Profile</button>
+                </li>
+                <li class="nav-item me-3" role="presentation">
+                    <button class="nav-link rounded-pill px-4 py-1" id="pills-contact-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                        aria-selected="false">Contact</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link rounded-pill px-4 py-1" id="pills-disabled-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled"
+                        aria-selected="false" disabled>Disabled</button>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                tabindex="0">
+
+
+
+                <div class="row" >
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                        <div class="" style="height: 47%"> <img src="./src/topDesti1.png" class="img-fluid" style="height: 100%"></div>
+                       
+                       <div class="" style="height: 47%; margin-top: 30px;"> <img src="./src/topDesti2.png" class="img-fluid" style="height: 100%"></div>
+                       
+                    
+
+                    </div>
+
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <img src="./src/topDesti3.png" class="img-fluid" style="height: 100%">
+
+
+                    </div>
+
+                    <div class="col-sm-5 col-md-5 col-lg-5">
+                        
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <div><img src="./src/topDesti4.png" class="img-fluid"></div>
+                               
+                            </div>
+                        
+                        <div class="row">
+                            <div class="col-sm-5 col-md-5 col-lg-5" style="margin-top: 19px">
+                                <img src="./src/topDesti5.png" class="img-fluid" style="height: 100%;">
+                            </div>
+                            <div class="col-sm-7 col-md- 7 col-lg-7" style="margin-top: 19px">
+                                <img src="./src/topDesti6.png" class=" img-fluid" style="height: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                tabindex="0"> <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                tabindex="0">
+
+
+
+                <div class="row" >
+                    <div class="col-sm-3 col-md-3 col-lg-3">
+                        <img src="./src/topDesti1.png" class="img-fluid">
+                       
+                        <img src="./src/topDesti2.png" class="img-fluid mt-4">
+                    
+
+                    </div>
+
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <img src="./src/topDesti3.png" class="img-fluid">
+
+
+                    </div>
+
+                    <div class="col-sm-5 col-md-5 col-lg-5">
+                        
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <img src="./src/topDesti4.png" class="img-fluid">
+                            </div>
+                        
+                        <div class="row">
+                            <div class="col-sm-5 col-md-5 col-lg-5">
+                                <img src="./src/topDesti5.png" class="img-fluid" style="">
+                            </div>
+                            <div class="col-sm-5 col-md- 5 col-lg-7">
+                                <img src="./src/topDesti6.png" class=" img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div></div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                tabindex="0">...</div>
+            <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab"
+                tabindex="0">...</div>
+        </div>
+
+
+    </div>
+</section>
+
+<section class="about-us">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-sm-12 col-md-12 col-lg-6 ">
+                <img src="./src/aboutus.png" class="img-fluid">
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="border-orange">
+
+                </div>
+                <h1 style="font-size:56px; line-height:66px; text-transform: capitalize; font-weight: 600; margin-bottom: 26px;">
+                    A customer said about us:
+                </h1>
+                <div class="owl-carousel carousel-3">
+                    <div class="item">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <p>Salty helped me a lot in finding the best place for our first outdoor adventure
+                                         trip. They responded very quickly and gave me a detailed account of the
+                                          place—its history, as well as its best features.
+                                    </p>
+                                    <div class="rating">
+                                        <img src="./src/rating.png" class="img-fluid" style="width: 120.55px; height: 17px">
+                                    </div>
+                                    <h4>Andrew Sarma</h4>
+                                    <span>Enterpreneur</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <div class="card-text">
+                                    <p>Salty helped me a lot in finding the best place for our first outdoor adventure
+                                         trip. They responded very quickly and gave me a detailed account of the
+                                          place—its history, as well as its best features.
+                                    </p>
+                                    <div class="rating">
+                                        <img src="./src/rating.png" class="img-fluid" style="width: 120.55px; height: 17px">
+                                    </div>
+                                    <h4>Christ Warnon</h4>
+                                    <span>Enterpreneur</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    $('.carousel-3').owlCarousel({
+        loop: true,
+        // autoplay: true,
+        margin: 25,
+        items: 1,
+        dots: false,
+        navText: ["<", ">"],
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: false,
+            },
+            678: {
+                items: 1,
+                nav: true
+            },
+            1000: {
+                items: 1,
+                nav: true,
+                loop: false
+            }
+        }
+    })  
+</script>
+
+<section class="newsletter">
+    <div class="container">
+        
+        <h1 style="font-weight: 600;margin-bottom: 16px; font-size: 40px;"> Sign up to our newsletter</h1>
+        <p class="mx-auto">Reciev latest news, update, and many other things every week. </p>
+        <form class="mx-auto">
+            <div class="input">
+                <input type="text" class="form-control" placeholder="Enter Your email address" aria-label="Recipient's username" aria-describedby="button-addon2">
+              
+                   
+                
+              
+               <div class="input-btn ">
+                        <img src="./src/newletterIcon.png" class="img-fluid">
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+<section class="footer">
+    <div class="container">
+        <div class="row">
+            <div class=" col-sm-12 col-md-12 col-lg-4">
+                <img src="./src/logo.png" class="img-fluid d-inline">
+                <h3 style="font-size: 20px ; font-weight: 700; " class="d-inline">Salty</h3>
+                <p style="margin-top: 20px;">Enjoy the touring with Salty</p>
+                <div class="d-flex " style="margin-top: 56px; margin-bottom: 15px;" >
+                    <div class="fb">
+                        <img src="./src/facebookIcon.png" class="img-fluid">
+                    </div>
+                    <div class="insta">
+                        <img src="./src/instaIcon.png" class="img-fluid">
+                    </div>
+                    <div class="twitter">
+                        <img src="./src/twitterIcon.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-2">
+                <h6 style="font-size: 20px; font-weight: 600;margin-bottom: 22px">Resources</h6>
+                <ul style="list-style: none; padding: 0px">
+                    <li class="mb-2">
+                        <a href="#">
+                            download
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#">
+                            Help Center
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#">
+                        Guide Book
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#">
+                        App Directory
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-2">
+                <h6 style="font-size: 20px; font-weight: 600;margin-bottom: 22px">Travellers</h6>
+                <ul style="list-style: none; padding: 0px">
+                    <li class="mb-2">
+                        <a href="#">
+                            Why Travellers
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#">
+                            Enterprice
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#">
+                            Customer Stories
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#">
+                            Instagram post
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-2">
+                <h6 style="font-size: 20px; font-weight: 600;margin-bottom: 22px">Company</h6>
+                <ul style="list-style: none; padding: 0px">
+                    <li class="mb-2">
+                        <a href="#">
+                            Travelling
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#">
+                            About Locato
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#">
+                            Success
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#">
+                            Information
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-2">
+                <h6 style="font-size: 20px; font-weight: 600;margin-bottom: 22px">Get App</h6>
+                <ul style="list-style: none; padding: 0px">
+                    <li class="mb-2">
+                        <a href="#">
+                            App Store
+                        </a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#">
+                            Google Play Store
+                        </a>
+                    </li>
+                   
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+
+</section>
+<br><br><br>
+
+
+
+</body>
+
+</html>
